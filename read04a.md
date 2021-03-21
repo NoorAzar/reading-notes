@@ -1,14 +1,14 @@
-Java script :
+## Java script :
 
 A script is a series of instructions that a
 computer can follow to achieve a goal.  
 
-we can use it to select element attribute or text from an Html page,and remove them.(adding paragraph,change the size)
+### we can use it to select element attribute or text from an Html page,and remove them.(adding paragraph,change the size)
 also java script allow you to create web pages and more interactive by 
 modifying the content .
 
 
-Program rules NAMING VARIABLES :
+# Program rules NAMING VARIABLES :
 
 
 1. the name must begin with a letter, dollar sign ($),or an underscore (_),its not suppose to begin with number.
@@ -35,7 +35,7 @@ var car;    // Value is undefined, type is undefined
 
 JavaScript Arithmetic Operators
 
-Operator Description
+<strong>  Operator Description </strong>
 +	Addition
 -	Subtraction
 *	Multiplication
