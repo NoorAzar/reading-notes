@@ -11,16 +11,16 @@
 1. var	Required -> A variable that iterates over the properties of an object
 2. object	Required-> The specified object that will be iterated
 
-<h1> CALCULAT E ANO WRITE OUT THE EX PIRY DETAILS FOR THE OFFER:
+<h3> CALCULAT E ANO WRITE OUT THE EX PIRY DETAILS FOR THE OFFER:
 
  <ul>
 <li>var expiryMsg; II Message displ ayed t o users </li>
 <li>var today ; II Today's date </li>
 <li>var el Ends ; II The element that shows the message about the offer ending </li>
 
-<h1> function offerExp ires(today):
+<h3> function offerExp ires(today):
 
-## II Decl are variables within the function for l ocalscope
+#### II Decl are variables within the function for l ocalscope
 
 var weekFromToday, day, date, month, year, dayNames, monthNames;
 
@@ -47,21 +47,21 @@ return expiryMsg;
 
 
 
-<h1> = Vs == VS === in JavaScript
+// = Vs == VS === in JavaScript
 
-<b>= in JavaScript is used for assigning values to a variable. </b>
+1. <b>= in JavaScript is used for assigning values to a variable. </b>
 
-<b>== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.</b>
+2. <b>== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.</b>
 
-<b> === is used for comparing two variables, but this operator also checks datatype and compares two values.
+3. <b> === is used for comparing two variables, but this operator also checks datatype and compares two values.
 </b>
-//Returns true if the operands are equal and of the same type. See also Object.is and sameness in JS. 
+Returns true if the operands are equal and of the same type. See also Object.is and sameness in JS. 
 3 === var1. 
-//Strict not equal ( !== )Returns true if the operands are of the same type but not equal, or are of different type
+Strict not equal ( !== )Returns true if the operands are of the same type but not equal, or are of different type
 
 
 
-<h1> In JavaScript we have the following conditional statements:
+### In JavaScript we have the following conditional statements:
 <ol>
 <li>Use if to specify a 
 block of code to be executed, if a specified condition is true.</li>
