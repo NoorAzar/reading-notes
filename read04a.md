@@ -1,4 +1,4 @@
-## Java script :
+# Java script :
 
 A script is a series of instructions that a
 computer can follow to achieve a goal.  
@@ -33,7 +33,7 @@ In JavaScript, a variable without a value, has the value undefined
 var car;    // Value is undefined, type is undefined
 
 
-JavaScript Arithmetic Operators
+# JavaScript Arithmetic Operators
 
 <strong>  Operator Description </strong>
 +	Addition
