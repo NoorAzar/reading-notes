@@ -11,14 +11,14 @@
 1. var	Required -> A variable that iterates over the properties of an object
 2. object	Required-> The specified object that will be iterated
 
-<h3> CALCULAT E ANO WRITE OUT THE EX PIRY DETAILS FOR THE OFFER:
+<h4> CALCULAT E ANO WRITE OUT THE EX PIRY DETAILS FOR THE OFFER:
 
  <ul>
 <li>var expiryMsg; II Message displ ayed t o users </li>
 <li>var today ; II Today's date </li>
 <li>var el Ends ; II The element that shows the message about the offer ending </li>
 
-<h3> function offerExp ires(today):
+<h4> function offerExp ires(today):
 
 #### II Decl are variables within the function for l ocalscope
 
@@ -34,15 +34,15 @@ dayNames = [' Sunday' , 'Mo nday' , 'Tuesday ' , 'Wednesday ', 'Thursday' ,
 mont hNames =['January', ' February', 'March', 'Apri l ', 'May ' , 'June ' ,
 0 'Jul y' , 'August ' , 'September' , 'October' , ' November' , 'December'] ; 
 
-//II Collect the parts of the dat e to show on t he page
-day = dayNames [weekFromToday . getOay ()];
-date= weekFromToday .getOate();
-month= mont hNames[wee kFromToday.getMonth()] ;
-year= weekFromToday .getFullYear() ; 
+how to  Collect the parts of date :
+1. day = dayNames [weekFromToday . getOay ()];
+2. date= weekFromToday .getOate();
+3. month= mont hNames[wee kFromToday.getMonth()] ;
+4. year= weekFromToday .getFullYear() ; 
 
-<h1>II Create the message
-expi ryMsg = 'Offer expires next ' ;
-expi ryMsg += day + ' <br I>( ' +date+ ' ' +month+ ' ' +year + ')';
+how to  Create the message:
+1. expi ryMsg = 'Offer expires next ' ;
+2. expi ryMsg += day + ' <br I>( ' +date+ ' ' +month+ ' ' +year + ')';
 return expiryMsg;  
 
 
